@@ -1,0 +1,2 @@
+googletrans==3.1.0a0
+json_flatten==0.3

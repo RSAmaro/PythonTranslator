@@ -1,0 +1,12 @@
+{
+    "menu": {
+        "title": "Menu",
+        "settings": "Settings"
+    },
+    "login": {
+        "welcome": "Welcome",
+        "signUp": "Log into your account",
+        "email": "Email or Username",
+        "password": "Password"
+    }
+}

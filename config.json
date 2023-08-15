@@ -1,0 +1,11 @@
+{
+    "source_language": "EN",
+    "target_languages": [
+        "DE",
+        "PT",
+        "FR"
+    ],
+    "excluded_words": [
+        "menu"
+    ]
+}
