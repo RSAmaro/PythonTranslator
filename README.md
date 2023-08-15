@@ -1,22 +1,22 @@
 ## Installation Guide
-Install latest [Python](https://www.python.org/) version.
+Install latest [Python](https://www.python.org/) version. (Latest tested: 3.11.4)
+
+## Install Requirements
 - sudo apt update 
 - sudo apt install pip
 - pip install -r requirements.txt
 
 ## Usage
-Create a source_language file (e.g.: EN.json)
-Edit config.json target_languages to add more languages.
-Add excluded_words if needed or leave empty.
-- python translate.py
+Create a source_language file (e.g.: EN.json);
 
-Supports named formatting, example:
-```json
-{
-	"hello": "{msg} world",
-	"name": "My name is {first_name} {last_name}"
-}
-```
+A config.json default configuration file has been provided on repository;
+
+Edit config.json target_languages to add more languages;
+
+Edit excluded_words for words you don't want to be translated, if not used leave it empty;
+
+After that, you can run the script:
+- python translate.py
 
 ## Config Example
 ```json
@@ -30,6 +30,14 @@ Supports named formatting, example:
   "excluded_words": [
     "menu"
   ]
+}
+```
+
+Supports named formatting, example:
+```json
+{
+	"hello": "{msg} world",
+	"name": "My name is {first_name} {last_name}"
 }
 ```
 
