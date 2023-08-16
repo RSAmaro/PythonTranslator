@@ -43,7 +43,6 @@ Supports named formatting, example:
 
 ## Supported Languages
 ```json
-{
     "af": "afrikaans",
     "sq": "albanian",
     "am": "amharic",
@@ -151,5 +150,38 @@ Supports named formatting, example:
     "yi": "yiddish",
     "yo": "yoruba",
     "zu": "zulu"
+```
+
+
+## Example
+*EN.json*
+```json
+{
+    "menu": {
+        "title": "Menu",
+        "settings": "Settings"
+    },
+    "login": {
+        "welcome": "Welcome",
+        "signUp": "Log into your account",
+        "email": "Email or Username",
+        "password": "Password"
+    }
+}
+```
+
+*PT.json*
+```json
+{
+    "menu": {
+        "title": "Menu",
+        "settings": "Configurações"
+    },
+    "login": {
+        "welcome": "Bem-vindo",
+        "signUp": "Registro em seu conta",
+        "email": "E-mail ou Nome de usuário",
+        "password": "Senha"
+    }
 }
 ```
