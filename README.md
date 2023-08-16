@@ -33,7 +33,7 @@ After that, you can run the script:
 }
 ```
 
-Supports named formatting, example:
+## Supports named formatting
 ```json
 {
 	"hello": "{msg} world",
