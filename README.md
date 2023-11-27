@@ -9,7 +9,7 @@ Install latest [Python](https://www.python.org/) version. (Latest tested: 3.11.4
 ## Usage
 Create a source_language file (e.g.: EN.json);
 
-A config.json default configuration file has been provided on repository;
+A default configuration file has been provided;
 
 Edit config.json target_languages to add more languages;
 
