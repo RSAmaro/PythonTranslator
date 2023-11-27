@@ -62,6 +62,6 @@ for target_language in config['target_languages']:
     if missing_keys:
         print(f"Missing keys in {target_language}.json:")
         for key in missing_keys:
-            print(f"Missing: {key}")
+            print(f"Translating: {key}")
 
 print("Translation complete.")
