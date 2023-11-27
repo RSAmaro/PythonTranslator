@@ -1,7 +1,6 @@
 ## Installation Guide
 Install latest [Python](https://www.python.org/) version. (Latest tested: 3.11.4)
 
-## Install Requirements
 - sudo apt update 
 - sudo apt install pip
 - pip install -r requirements.txt
